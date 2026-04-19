@@ -54,22 +54,22 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=7517045929"),
-            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/skillwithchiru"),
+            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=890749443"),
+            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/Princepia"),
         ],
     ]
 )
 # Image URLs for the random image feature
 image_urls = [
     
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
+    "https://postimage.me/image/OYpM",
     # Add more image URLs as needed
 ]
 # Start command handler
@@ -89,7 +89,7 @@ async def start_command(bot: Client, message: Message):
 <blockquote>🌟 <b>Welcome Buddy....! ☠️!</b> 🌟</blockquote><br><br>
 
 /help <b>to know about all the commonds</b> 📄 <br><br>
-<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=7517045929)<b>to Get The Subscription</b> 🎫<br>
+<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=890749443)<b>to Get The Subscription</b> 🎫<br>
 """)
     await asyncio.sleep(1)
     await loading_message.edit_text(
